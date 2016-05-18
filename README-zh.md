@@ -16,7 +16,7 @@ jquery1.9+
 注意: Opera 浏览器并没有进行全面的测试，不过理论上是可以正常运行此插件的。  
 
 ### 预览:
-![](https://github.com/huangjunse/colorPalatte/raw/master/Snapshot/01.jpg)
+![](https://github.com/huangjunsen/colorPalatte/raw/master/Snapshot/01.jpg)
 
 ### 属性及默认值:
 属性|默认值|值类型|描述

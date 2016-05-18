@@ -16,7 +16,7 @@ jquery1.9+
 Note: Opera has not been test, but this plugin would work well theoretically.  
 
 ### Preview:
-![](https://github.com/huangjunse/colorPalatte/raw/master/Snapshot/01.jpg)
+![](https://github.com/huangjunsen/colorPalatte/raw/master/Snapshot/01.jpg)
 
 ### Options and default value:
 option|default|type|Description
