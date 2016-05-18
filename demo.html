@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>colorPalatte</title>
+<style>
+*{margin:0;padding:0;}
+body{margin:10px;padding:10px;/*background:#D3D3D3;*/}
+</style>
+    </head>
+    <body>
+        <input type="text" id="Palette">
+        <!-- <div id="Palette"></div> -->
+        <!-- <div style="width:100%;height:500px"></div> -->
+
+        <script src="jquery.min.js"></script>
+        <script src="colorPalatte.min.js"></script>
+        <script>
+        $(function(){
+            var Palette = $('#Palette').colorPalatte({
+                delay: 300,
+                resultFormat: 'background',
+                confirm: function(){
+                    console.log(Palette.colorPalatte('getColor'))
+                }
+            });
+            Palette.colorPalatte('setColor', '#02C');
+        });
+        </script>
+    </body>
+</html>
